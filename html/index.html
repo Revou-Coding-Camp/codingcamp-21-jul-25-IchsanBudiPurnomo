@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container-wraper">
+    <div class="container">
+        <h1>TO DO LIST</h1>
+        <div class="input-row">
+            <input class="acara" type="text" placeholder="Add a todo...">
+            <input class="date" type="date" placeholder="mm/dd/yyyy">
+            <button class="add-btn"><img src="../icon/tambah.png" alt="+"></button>
+        </div>
+        <div class="action-row">
+            <button class="delete-btn">DELETE ALL</button>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="thd1">TASK</th>
+                        <th class="thd2">DUE DATE</th>
+                        <th class="thd3">STATUS</th>
+                        <th class="thd4">ACTIONS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="no-task">
+                        <td class="rrrr" colspan="4">No task found</td>
+                    </tr>
+                    <!-- <tr class="task-row">
+                        <td class="task-desc">Belajar JavaScript dan debugging kksdlkahlsadsadkashdklhsadklhsalkdaklsdjh</td>
+                        <td class="task-date">2025-07-24</td>
+                        <td class="task-status">Pending</td>
+                        <td class="task-action">
+                            <button class="done-task"><img src="../icon/checkmark.png" alt="✔"></button>
+                            <button class="delete-task"><img src="../icon/hapus.png" alt="✖"></button>
+                        </td>
+                    </tr> -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
