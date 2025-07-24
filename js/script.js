@@ -19,8 +19,8 @@ addBtn.addEventListener('click', () => {
     <td class="task-date">${dueDate}</td>
     <td class="task-status">Pending</td>
     <td class="task-action">
-      <button class="done-task"><img src="../icon/checkmark.png" alt="✔" /></button>
-      <button class="delete-task"><img src="../icon/hapus.png" alt="✖" /></button>
+      <button class="done-task"><img src="/icon/checkmark.png" alt="✔" /></button>
+      <button class="delete-task"><img src="/icon/hapus.png" alt="✖" /></button>
     </td>
   `;
 
